@@ -12,6 +12,7 @@ import CatppuccinMacchiatoTheme from './catppuccinMacchiato'
 import DraculaTheme from './dracula'
 import NuclearTheme from './nuclear'
 import AmusicTheme from './amusic'
+import DarjustTheme from './darjust'
 import SquiddiesGlassTheme from './SquiddiesGlass'
 import NautilineTheme from './nautiline'
 
@@ -23,6 +24,7 @@ export default {
   // New themes should be added here, in alphabetic order
   AmusicTheme,
   CatppuccinMacchiatoTheme,
+  DarjustTheme,
   DraculaTheme,
   ElectricPurpleTheme,
   ExtraDarkTheme,
