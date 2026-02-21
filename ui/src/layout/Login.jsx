@@ -18,7 +18,7 @@ import {
   useTranslate,
   useVersion,
 } from 'react-admin'
-import Logo from '../icons/android-icon-192x192.png'
+import Logo from '../assets/logo-darjust.png'
 
 import Notification from './Notification'
 import useCurrentTheme from '../themes/useCurrentTheme'
@@ -35,10 +35,12 @@ const useStyles = makeStyles(
       minHeight: '100vh',
       alignItems: 'center',
       justifyContent: 'flex-start',
-      background: `url(${config.loginBackgroundURL})`,
+      /* background: `url(${config.loginBackgroundURL})`,
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
+      */
+
     },
     card: {
       minWidth: 300,
@@ -125,12 +127,12 @@ const FormLogin = ({ loading, handleSubmit, validate }) => {
               </div>
               <div className={classes.systemName}>
                 <a
-                  href="https://www.navidrome.org"
+                  href="https://www.darjust.fr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={classes.systemNameLink}
                 >
-                  Navidrome
+                  Darjust.fr
                 </a>
               </div>
               {config.welcomeMessage && (

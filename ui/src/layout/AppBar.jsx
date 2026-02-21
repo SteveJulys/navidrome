@@ -139,8 +139,24 @@ const CustomUserMenu = ({ onClick, ...rest }) => {
   )
 }
 
+
+import darjustLogo from '../assets/logo-darjust.png'
+
+const DarjustLogo = () => (
+  <img
+    src={darjustLogo}
+    alt="logo"
+    style={{ width: '12.6em', height: 'auto' }}
+  />
+)
+
 const AppBar = (props) => (
-  <RAAppBar {...props} container={Fragment} userMenu={<CustomUserMenu />} />
+  <RAAppBar
+    {...props}
+    container={Fragment}
+    userMenu={<CustomUserMenu />}
+    title={<DarjustLogo />}
+  />
 )
 
 export default AppBar

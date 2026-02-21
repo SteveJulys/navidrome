@@ -1,0 +1,69 @@
+/* === DARJUST THEME === */
+
+:root {
+    --primary-color: #2ED3AE;
+    --accent-color: #D32E53;
+    --bg-main:#1976D2;
+    --text-main: #ffffff;
+}
+
+/* Background image */
+
+body,
+#root {
+    background-image: url('./bg-darjust-sj.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Background général */
+body,
+#root {
+    background-color: var(--bg-main) !important;
+    color: var(--text-main) !important;
+}
+
+/* Boutons primaires */
+.MuiButton-containedPrimary {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+.MuiButton-containedPrimary:hover {
+    background-color: var(--accent-color) !important;
+}
+
+/* Liens */
+a {
+    color: var(--primary-color) !important;
+}
+
+a:hover {
+    color: var(--accent-color) !important;
+}
+
+
+img[alt="logo"] {
+    width: 12.6em !important;
+    height: auto !important;
+    filter: none !important;
+    mix-blend-mode: normal !important;
+}
+
+/* Force fond global */
+body,
+#root {
+    background-image: url('./bg-darjust-sj.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+.MuiAppBar-root .MuiTypography-root {
+    color: #FFFFFF !important;
+}
+
+
+
